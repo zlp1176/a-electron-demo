@@ -1,0 +1,21 @@
+{
+  "name": "a-first-try",
+  "version": "0.1.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . a-first-try --win --arch=x64 --electron-version=5.0.13 --overwrite --ignore=node_modules"
+  },
+  "keywords": [
+    "electronDemo"
+  ],
+  "author": "luping",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^5.0.13"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.2.0"
+  }
+}
