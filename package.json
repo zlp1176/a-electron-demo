@@ -13,7 +13,7 @@
   "author": "luping",
   "license": "ISC",
   "dependencies": {
-    "electron": "^5.0.13"
+    "electron": "^9.1.0"
   },
   "devDependencies": {
     "electron-packager": "^14.2.0"
